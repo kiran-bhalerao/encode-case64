@@ -1,0 +1,24 @@
+{
+  "name": "encode-case64",
+  "version": "1.0.0",
+  "description": "simple string base64 encoder with case sensitivity options.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "encode string",
+    "decode string",
+    "base64",
+    "case sensitive base64"
+  ],
+  "author": "Kiran nivrutti bhalerao",
+  "license": "ISC",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "btoa": "^1.2.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
