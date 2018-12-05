@@ -12,6 +12,10 @@
     "base64",
     "case sensitive base64"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiranbhalerao123/encode-case64.git"
+  },
   "author": "Kiran nivrutti bhalerao",
   "license": "ISC",
   "dependencies": {
