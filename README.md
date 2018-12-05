@@ -21,7 +21,7 @@ const encodedLower = str.encodeToLowerCase();
 ```
 decrypt to Lowercase:
 ```
-const decodedLower = str.decodeToLowerCase();
+const decodedLower = encodedLower.decodeToLowerCase();
 ```
 encrypt to Uppercase:
 ```
@@ -29,5 +29,5 @@ const encodedUpper = str.encodeToUpperCase();
 ```
 decrypt to Uppercase:
 ```
-const decodedUpper = str.decodeToUpperCase();
+const decodedUpper = encodedUpper.decodeToUpperCase();
 ```
