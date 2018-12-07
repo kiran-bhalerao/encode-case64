@@ -1,2 +1,2 @@
-require("./utils/ToUpperCase");
-require("./utils/ToLowerCase");
+require("./utils/decodeCase64");
+require("./utils/encode");
