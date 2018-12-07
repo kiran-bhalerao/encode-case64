@@ -1,6 +1,6 @@
 {
   "name": "encode-case64",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "simple string base64 encoder with case sensitivity options.",
   "main": "index.js",
   "scripts": {
