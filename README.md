@@ -18,16 +18,15 @@ const str = "Your String."
 encrypt to Lowercase:
 ```
 const encodedLower = str.encodeToLowerCase();
-```
-decrypt to Lowercase:
-```
-const decodedLower = encodedLower.decodeToLowerCase();
+output : -w-w91ci-b-td-h-jpbmcu
 ```
 encrypt to Uppercase:
 ```
 const encodedUpper = str.encodeToUpperCase();
+output : WW91-C-IBT-DHJ-P-B-M-C-U
 ```
-decrypt to Uppercase:
+decrypt from Lowercase/Uppercase:
 ```
-const decodedUpper = encodedUpper.decodeToUpperCase();
+const decodedUpper = encodedUpper.decodeCase64();
+output : Your String.
 ```
