@@ -27,7 +27,7 @@ output : "WW91-C-IBT-DHJ-P-B-M-C-U"
 ```
 decrypt from Lowercase/Uppercase:
 ```javascript
-const original-your-string = encodedUpper.decodeCase64();
+const your-original-string = encodedUpper.decodeCase64();
 output : "Your String."
 ```
 
