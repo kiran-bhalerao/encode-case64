@@ -1,5 +1,5 @@
 const atob = require('atob');
-require("./checkCase");
+require("../checkCase");
 
 // Lower case decription
 String.prototype.decodeToLowerCase = function() {

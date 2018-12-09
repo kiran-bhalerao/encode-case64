@@ -1,6 +1,6 @@
-require("./decode");
+require("./decodeWith");
 
-String.prototype.decodeCase64 = function() {
+String.prototype.decodeFromCase64 = function() {
   let given = this.replace(/[^A-Za-z]+/g, "");
   if (!given)
    throw new Error("Incorrect String.");

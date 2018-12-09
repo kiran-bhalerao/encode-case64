@@ -1,9 +1,8 @@
-const btoa = require('btoa');
-require("./checkCase");
+require("../checkCase");
 
-// Lower case encription
-String.prototype.encodeToLowerCase = function() {
-  var plain = btoa(this.trim());
+// covert to Lower case
+String.prototype.convertToLowerCase = function() {
+  var plain = (this.trim());
   var encoded = "";
   for (char of plain)
     if (char.isUpperCase()) 
@@ -15,9 +14,9 @@ String.prototype.encodeToLowerCase = function() {
   return encoded.trim();
 };
 
-// Upper case encription
-String.prototype.encodeToUpperCase = function() {
-  var plain = btoa(this.trim());
+// covert to Upper case
+String.prototype.convertToUpperCase = function() {
+  var plain = (this.trim());
   var encoded = "";
   for (char of plain)
     if (char.isLowerCase()) 

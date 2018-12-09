@@ -15,19 +15,32 @@ import "encode-case64";
 
 const str = "Your String."
 ```
-encrypt to Lowercase:
+encode/decode string to upper/lower case with base64
 ```javascript
+⚡ encrypt to Lowercase: 👍
 const encodedLower = str.encodeToLowerCase();
 output : "-w-w91ci-b-td-h-jpbmcu"
-```
-encrypt to Uppercase:
-```javascript
+
+⚡ encrypt to Uppercase: 👍
 const encodedUpper = str.encodeToUpperCase();
 output : "WW91-C-IBT-DHJ-P-B-M-C-U"
+
+⚡ decrypt from Lowercase/Uppercase: 👍
+const your-original-string = encodedUpper.decodeFromCase64();
+output : "Your String."
 ```
-decrypt from Lowercase/Uppercase:
+convert/de-convert string to upper/lower case (without encoding)
 ```javascript
-const your-original-string = encodedUpper.decodeCase64();
+⚡ convert to Lowercase: 👍
+const lowerStr = str.convertToLowerCase();
+output : "-your -string."
+
+⚡ convert to Uppercase: 👍
+const upperStr = str.convertToUpperCase();
+output : "Y-O-U-R S-T-R-I-N-G."
+
+⚡ convert from Lowercase/Uppercase: 👍
+const your-original-string = upperStr.convertFromCase64();
 output : "Your String."
 ```
 
