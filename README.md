@@ -17,15 +17,15 @@ const str = "Your String."
 ```
 encode/decode string to upper/lower case with base64
 ```javascript
-⚡ encrypt to Lowercase: 👍
+⚡ encode to Lowercase: 👍
 const encodedLower = str.encodeToLowerCase();
 output : "-w-w91ci-b-td-h-jpbmcu"
 
-⚡ encrypt to Uppercase: 👍
+⚡ encode to Uppercase: 👍
 const encodedUpper = str.encodeToUpperCase();
 output : "WW91-C-IBT-DHJ-P-B-M-C-U"
 
-⚡ decrypt from Lowercase/Uppercase: 👍
+⚡ decode from Lowercase/Uppercase: 👍
 const your-original-string = encodedUpper.decodeFromCase64();
 output : "Your String."
 ```
